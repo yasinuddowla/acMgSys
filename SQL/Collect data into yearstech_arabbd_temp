@@ -1,0 +1,9 @@
+Collect data into yearstech_arabbd_temp
+	Account, Purposes, Cost, Deposit, Transfer, user
+
+Change account id to account_id data type as VARCHAR for cost, deposit
+upload the SQL
+
+Set party ID
+Set Cost Payment
+Set Deposit Payment

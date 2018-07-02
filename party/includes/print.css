@@ -1,0 +1,255 @@
+/* CSS Document 
+	Transcript Print
+*/
+
+@page {
+	/*size:	5.9in 4.1in portrait;*/
+	margin: 5mm; 
+}
+#admin_nav{
+	display:none;
+
+}
+body {
+	background-color: #fff;
+	font-family: times new roman,sans-serif;
+	width:90%;
+	margin:0px auto;
+}
+table {
+	width:100%;
+	border-collapse: collapse;
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+.main {
+	padding: 5px;
+	margin: 0 auto;
+	width: 90%;
+	background: #fff;
+}
+.header {
+
+	display:none;
+}
+.blank_logo{
+	height:130px;
+}
+.btn-container{
+	display:none;
+}
+/*Final List-Flight-list-Report*/
+.io-form{
+	display:none;
+}
+.final-list-div, .flight-list-div{
+	page-break-after: always;
+}
+.report{
+	
+	font-size:.7em;
+	padding:0px;
+	margin:0px auto;
+}
+.y-report{
+	text-align:center;
+	font-size:1em;
+}
+.report a{
+	padding:0px;
+	text-decoration:none;
+	color:#000;
+}
+.final-list,.flight-list{
+	font-size:.7em;
+	padding:0px;
+}
+.final-list-cptn,.flight-list-cptn,.report-cptn{
+	margin:0px auto;
+	margin-bottom: 10px; 
+	padding:6px;
+	text-align:center;
+	font-size:1.4em;
+	font-weight:normal;
+	background-color:#a8a8a1;
+}
+.page-no{
+	font-size:.7em;
+	text-align:right;
+}
+.final-list .left-col {
+	text-align:left;
+}
+
+.final-list  tr:nth-child,.flight-list  tr:nth-child(even),.report  tr:nth-child(even){
+	background-color:#FFF;
+}
+.final-list tr:nth-child,.flight-list tr:nth-child(odd),.report tr:nth-child(odd){
+	background-color:#F2F2F2;
+}
+.flight-list th,.flight-list td{
+	padding:2px 2px;
+	text-align:center;
+	border:1px solid black;
+}
+.final-list th,.final-list td{
+	/*padding:5px 20px;*/
+	text-align:center;
+	border:1px solid black;
+}
+.report th,.report td{
+	padding:2px 2px;
+	border:1px solid black;
+	text-align:center;
+}
+
+/****************/
+.vchr-ac{
+	display:none;
+
+}
+.years-cpt{
+	padding:0px;
+	font-size:.7em;
+}
+
+.dptre-card {
+	page-break-after:always;
+}
+.signature{
+	width:35%;
+	text-align:center;
+	float:right;
+}
+.print-dptre-table{
+	font-size:.8em;
+}
+.print-vchr-table,.print-dptre-table{
+	width:100%;
+	border:none;
+	border-collapse:collapse;
+}
+.voucher-form{
+	display:none;
+}
+.caption{
+	margin:0px auto;
+	margin-bottom: 10px; 
+	padding:6px;
+	text-align:center;
+	font-size:1.2em;
+	font-weight:normal;
+	background-color:#a8a8a1;
+}
+.print-vchr-table th,.print-vchr-table td{
+	border:none;
+	padding:5px 20px;
+	border:1px solid black;
+}
+
+.print-vchr-table .col-1{
+	width:25%;
+	text-align:left;
+}
+.print-vchr-table .col-2{
+	width:5%;
+	text-align:left;
+}
+.print-vchr-table .col-3{
+	width:70%;
+	text-align:right;
+}
+
+.print-vchr-table  tr:nth-child(even){
+	background-color:#FFF;
+}
+.print-vchr-table tr:nth-child(odd)
+{
+	background-color:#F2F2F2;
+}
+.print-vchr-table tr:hover{
+	background-color:#A3BDB7;
+	color:black;
+	font-weight:bold;
+}
+.print-header .h1{
+	font-size:1.3em;
+	width:75%;
+	margin:0px auto;
+	text-align:center;
+}
+.print-header .add{
+	font-size:.5em;
+	width:55%;
+	margin:0px auto;
+	text-align:center;
+}
+.print-header .h1{
+	font-size:1.2em;
+	margin:0px auto;
+	text-align:center;
+}
+.print-dptre .print-header .h1{
+	font-size:1em;
+	
+	margin:0px auto;
+	text-align:center;
+}
+.print-dptre .print-header .add{
+	font-size:.3em;
+	
+	margin:0px auto;
+	text-align:center;
+}
+
+#print,#submit{
+	display:none;
+}
+.logo {
+	padding: 5px;
+}
+
+.footer-text {
+	padding: 05px;
+	font-size: 12px;
+	color: #666;
+	font-weight: normal;
+}
+.serarch-again {
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#footer{
+	display:none;
+}
+.footer {
+	margin: 0px auto;
+	background: #FFF;
+	height: 70px;
+	padding: 1px;
+	font-size:.8em;
+	border-bottom-left-radius: 05px;
+	border-bottom-right-radius: 05px;
+}
+.footer a{
+	text-decoration:none;
+	color:#666;;
+}
+.footer-credit {
+	margin-right:10px;
+	float:right;
+	padding: 5px;
+	color: #666;
+	font-weight: normal;
+}
+.footer-copyright{
+	float:left;
+	padding: 5px;
+	color: #666;
+	font-weight: normal;
+}
+
